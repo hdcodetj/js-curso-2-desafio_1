@@ -140,7 +140,6 @@ let larguraPerimetro = Number(prompt('Digite a largura'));
 
 let total = perimetro(alturaPerimetro, larguraPerimetro);
 alert(total);
-*/
 
 
 // Crie uma função que mostre na tela a área e o perímetro de uma sala circular, utilizando seu raio que será fornecido como parâmetro. Considere Pi = 3,14.
@@ -157,3 +156,23 @@ function tabuada(num) {
 }
 
 tabuada(2)
+
+
+
+
+// Crie uma lista vazia, com o nome listaGenerica.
+let listaGenerica = [];
+// Crie uma lista de linguagens de programação chamada linguagensDeProgramacao com os seguintes elementos: 'JavaScript','C','C++', 'Kotlin' e 'Python'.
+let linguagensDeProramacao = ['JavaScprit','C','C++','Kotlin','Python'];
+// Adicione à lista linguagensDeProgramacao os seguintes elementos: 'Java', 'Ruby' e 'GoLang'.
+linguagensDeProramacao.push('Java');linguagensDeProramacao.push('Ruby');linguagensDeProramacao.push('Golang');
+// Crie uma lista com 3 nomes e exiba no console apenas o primeiro elemento.
+console.log(linguagensDeProramacao[0]);
+// Crie uma lista com 3 nomes e exiba no console apenas o segundo elemento.
+console.log(linguagensDeProramacao[1]);
+// Crie uma lista com 3 nomes e exiba no console apenas o último elemento.
+console.log(linguagensDeProramacao[2]);
+
+
+*/
+
