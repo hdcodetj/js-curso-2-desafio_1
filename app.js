@@ -1,3 +1,5 @@
+/* 
+
 let titulo = document.querySelector('h1');
 titulo.innerHTML = 'Hora do Desafio';
 
@@ -82,3 +84,76 @@ function multiNum(num1) {
 }
 
 multiNum(10)
+
+
+*/
+
+/* Crie uma função que calcule o índice de massa corporal (IMC) de uma pessoa, a partir de sua altura, em metros, e peso, em quilogramas, que serão recebidos como parâmetro.
+
+function calcularIMC(altura, peso) {
+    let imc = peso / (altura * altura);
+    return imc;
+}
+
+let alTura = prompt("Digite sua altura");
+let peSo = prompt("Digite seu peso");
+
+let resultado = calcularIMC(Number(alTura), Number(peSo))
+alert(resultado);
+
+
+
+// Crie uma função que calcule o valor do fatorial de um número passado como parâmetro.
+
+function calcularFatorial(num) {
+    if (num == 0 || num == 1) {
+        return 1;
+    } else {
+        return num * calcularFatorial(num - 1);
+    }
+}
+
+let numeroParaCalcularFatorial = Number(prompt("Digite um número"));
+
+let resultadoFatorial = calcularFatorial(numeroParaCalcularFatorial);
+
+alert(resultadoFatorial);
+
+
+// Crie uma função que converte um valor em dólar, passado como parâmetro, e retorna o valor equivalente em reais. Para isso, considere a cotação do dólar igual a R$4,80.
+
+function convertor(numValor) {
+    let dolarDinheiro = numValor * 4.80;
+    console.log(dolarDinheiro);
+}
+convertor(Number(prompt('Converter qual número')));
+
+// Crie uma função que mostre na tela a área e o perímetro de uma sala retangular, utilizando altura e largura que serão dadas como parâmetro.
+
+function perimetro(altura, largura) {
+    let resultado = altura * largura;
+    return resultado;
+}
+
+let alturaPerimetro = Number(prompt('Digite a altura'));
+let larguraPerimetro = Number(prompt('Digite a largura'));
+
+let total = perimetro(alturaPerimetro, larguraPerimetro);
+alert(total);
+*/
+
+
+// Crie uma função que mostre na tela a área e o perímetro de uma sala circular, utilizando seu raio que será fornecido como parâmetro. Considere Pi = 3,14.
+
+// Crie uma função que mostre na tela a tabuada de um número dado como parâmetro.
+
+let tabuaDa = 1;
+function tabuada(num) {
+    while (tabuaDa < 11) {
+        let multi = num * tabuaDa;
+        console.log(multi);
+        tabuaDa++;    
+    }   
+}
+
+tabuada(2)
